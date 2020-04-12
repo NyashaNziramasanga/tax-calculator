@@ -1,3 +1,3 @@
-# 💰 Australia Tax Calculator 💵
+# 🧾 Australia Tax Calculator 💵
 
 Australian income tax calculator app 
