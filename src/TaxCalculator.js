@@ -12,18 +12,18 @@ export const taxCalculator = (income) => {
   } else if (income <= 37_001) {
     annualTax = (income * TAX_19_PERCENT).toFixed(2);
     pay = (income * (1 - TAX_19_PERCENT)).toFixed(2);
-    return { annualTax, pay };
+    return { annualTax, pay, income };
   } else if (income <= 90_001) {
     annualTax = (income * TAX_32_PERCENT).toFixed(2);
     pay = (income * (1 - TAX_32_PERCENT)).toFixed(2);
-    return { annualTax, pay };
+    return { annualTax, pay, income };
   } else if (income <= 180_000) {
     annualTax = (income * TAX_37_PERCENT).toFixed(2);
     pay = (income * (1 - TAX_37_PERCENT)).toFixed(2);
-    return { annualTax, pay };
+    return { annualTax, pay, income };
   } else if (income >= 180_001) {
     annualTax = (income * TAX_45_PERCENT).toFixed(2);
     pay = (income * (1 - TAX_45_PERCENT)).toFixed(2);
-    return { annualTax, pay };
+    return { annualTax, pay, income };
   }
 };
