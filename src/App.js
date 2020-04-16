@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Aus Tax Calculator</h1>
+        <h1 className="text-center p-5">Aus Tax Calculator</h1>
         <InputField></InputField>
         <IncomeTable></IncomeTable>
       </div>
