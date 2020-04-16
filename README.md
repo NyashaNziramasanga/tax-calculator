@@ -30,3 +30,6 @@ $ npm start
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Built With
+
+- [React.js](https://reactjs.org/)
+- [Tailwind-css](https://tailwindcss.com/)
