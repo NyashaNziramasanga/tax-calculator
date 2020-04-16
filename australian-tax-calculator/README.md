@@ -11,6 +11,11 @@ Australian income tax calculator app
 
 ## Getting Started
 
+```javascript
+$ npm i
+$ npm start
+```
+
 ## Deployment
 
 ## Contributing
