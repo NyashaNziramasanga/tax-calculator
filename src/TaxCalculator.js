@@ -8,25 +8,20 @@ export const taxCalculator = (income) => {
   const TAX_45_PERCENT = 0.45;
 
   if (income <= 18_201) {
-    console.log('Not Taxable');
     return 'Nill';
   } else if (income <= 37_001) {
-    console.log('Taxed at 19%');
     annualTax = (income * TAX_19_PERCENT).toFixed(2);
     pay = (income * (1 - TAX_19_PERCENT)).toFixed(2);
     return { annualTax, pay };
   } else if (income <= 90_001) {
-    console.log('Taxed at 32.5%');
     annualTax = (income * TAX_32_PERCENT).toFixed(2);
     pay = (income * (1 - TAX_32_PERCENT)).toFixed(2);
     return { annualTax, pay };
   } else if (income <= 180_000) {
-    console.log('Taxed at 37%');
     annualTax = (income * TAX_37_PERCENT).toFixed(2);
     pay = (income * (1 - TAX_37_PERCENT)).toFixed(2);
     return { annualTax, pay };
   } else if (income >= 180_001) {
-    console.log('Taxed at 45%');
     annualTax = (income * TAX_45_PERCENT).toFixed(2);
     pay = (income * (1 - TAX_45_PERCENT)).toFixed(2);
     return { annualTax, pay };
