@@ -9,16 +9,9 @@ body {
 }
 
 .App {
-  text-align: center;
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
   a {
@@ -27,10 +20,8 @@ body {
 }
 
 .container {
-  background-color: red;
-  border-radius: 5px;
-  max-width: 1100px;
-  margin: auto;
-  overflow: hidden;
-  padding: 1rem 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1012px;
+  background-color: #21242a;
 }

@@ -19,7 +19,7 @@
 ## Getting Started
 
 ```javascript
-$ npm i
+$ npm install
 $ npm start
 ```
 

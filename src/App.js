@@ -1,23 +1,14 @@
 import React from 'react';
 import './App.scss';
+import InputField from './components/inputField/inputField';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="container">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </div>
-      </header>
+      <div className="container">
+        <a href="#">Aus tax calculator</a>
+        <InputField name="income" placeholder="Enter income"></InputField>
+      </div>
     </div>
   );
 }
