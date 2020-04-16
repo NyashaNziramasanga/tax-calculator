@@ -1,6 +1,13 @@
-# 🧾 Australia Tax Calculator 💵
+<div align="center">
+  <p>
+    <h3> Australia Tax Calculator </h2>
+  </p>
+  <p>
+    <i>Australian income tax calculator app. 🧾💵</i>
+  </p>
+</div>
 
-Australian income tax calculator app
+---
 
 ## Table of Contents
 
