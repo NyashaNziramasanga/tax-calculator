@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.scss';
-import InputField from './components/inputField/inputField';
+import InputField from './components/InputField';
+import IncomeTable from './components/IncomeTable/Table';
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <a href="#">Aus tax calculator</a>
-        <InputField name="income" placeholder="Enter income"></InputField>
+        <h1>Aus Tax Calculator</h1>
+        <InputField></InputField>
+        <IncomeTable></IncomeTable>
       </div>
     </div>
   );
