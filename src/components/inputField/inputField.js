@@ -1,7 +1,9 @@
 import React from 'react';
-import styling from './inputFiled.module.scss';
 
 const InputField = (props) => {
-  return <input className={styling} />;
+  return (
+    <p>Hello</p>
+    // <input className=""/>;
+  );
 };
 export default InputField;
