@@ -1,14 +1,19 @@
 import React, { useState } from 'react';
 import { taxCalculator } from '../TaxCalculator';
 
-const InputField = () => {
-  const [income, setIncome] = useState('');
+const InputField = (props) => {
+  const [income, setIncome] = useState(0);
 
   const onChange = (e) => setIncome(e.target.value);
 
+  const onSubmit = (e) => {
+    e.preventDefault();
+    props.setAmount(taxCalculator(income));
+  };
+
   return (
     <form
-      onSubmit={() => taxCalculator(income)}
+      onSubmit={onSubmit}
       className="bg-white shadow-md rounded px-8 pt-5 pb-8 m-10"
     >
       <div className="flex flex-wrap mx-auto ">

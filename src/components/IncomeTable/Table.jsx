@@ -1,7 +1,7 @@
 import React from 'react';
 import TableRow from './TableRow';
 
-const Table = () => {
+const Table = (props) => {
   return (
     <table className="table-auto mx-auto">
       <thead>
@@ -14,8 +14,7 @@ const Table = () => {
         </tr>
       </thead>
       <tbody>
-        {/* TODO: pass in props of calculated data */}
-        <TableRow></TableRow>
+        <TableRow table={props.tableAmounts}></TableRow>
       </tbody>
     </table>
   );

@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
 
-const TableRow = () => {
+const TableRow = (props) => {
   return (
     <Fragment>
       <tr>
         <td className="border px-10 py-2">Taxable Income</td>
-        <td className="border px-10 py-2">100</td>
+        <td className="border px-10 py-2">{props.table}</td>
         <td className="border px-10 py-2">858</td>
         <td className="border px-10 py-2">858</td>
         <td className="border px-10 py-2">858</td>

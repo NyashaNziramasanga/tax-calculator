@@ -1,6 +1,7 @@
 export const taxCalculator = (income) => {
   if (income <= 18_201) {
     console.log('Not Taxable');
+    return 'Nil';
   } else if (income <= 37_001) {
     console.log('Taxed at 19%');
   } else if (income <= 90_001) {
