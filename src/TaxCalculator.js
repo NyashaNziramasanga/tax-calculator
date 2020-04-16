@@ -1,5 +1,6 @@
 export const taxCalculator = (income) => {
   let annualTax = 0;
+  let pay = 0;
 
   const TAX_19_PERCENT = 0.19;
   const TAX_32_PERCENT = 0.325;
@@ -12,18 +13,22 @@ export const taxCalculator = (income) => {
   } else if (income <= 37_001) {
     console.log('Taxed at 19%');
     annualTax = (income * TAX_19_PERCENT).toFixed(2);
-    return annualTax;
+    pay = (income * (1 - TAX_19_PERCENT)).toFixed(2);
+    return { annualTax, pay };
   } else if (income <= 90_001) {
     console.log('Taxed at 32.5%');
     annualTax = (income * TAX_32_PERCENT).toFixed(2);
-    return annualTax;
+    pay = (income * (1 - TAX_32_PERCENT)).toFixed(2);
+    return { annualTax, pay };
   } else if (income <= 180_000) {
     console.log('Taxed at 37%');
     annualTax = (income * TAX_37_PERCENT).toFixed(2);
-    return annualTax;
+    pay = (income * (1 - TAX_37_PERCENT)).toFixed(2);
+    return { annualTax, pay };
   } else if (income >= 180_001) {
     console.log('Taxed at 45%');
     annualTax = (income * TAX_45_PERCENT).toFixed(2);
-    return annualTax;
+    pay = (income * (1 - TAX_45_PERCENT)).toFixed(2);
+    return { annualTax, pay };
   }
 };
