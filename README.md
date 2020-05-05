@@ -9,6 +9,8 @@
 
 ---
 
+[![time tracker](https://wakatime.com/badge/github/NyashaNziramasanga/australia-tax-calculator.svg)](https://wakatime.com/badge/github/NyashaNziramasanga/australia-tax-calculator)
+
 ## Table of Contents
 
 - [Getting Started](##Getting%20Started)
