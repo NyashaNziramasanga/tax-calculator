@@ -7,9 +7,13 @@ const App = () => {
   const [amount, setAmount] = useState(0);
   const [tableAmounts, setTableAmounts] = useState(0);
 
+  console.log('amount', amount);
+
   useEffect(() => {
     setTableAmounts(amount);
   }, [amount]);
+
+  console.log('tableAmounts', tableAmounts);
 
   return (
     <div className="App">
