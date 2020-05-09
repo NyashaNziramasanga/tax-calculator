@@ -1718,3 +1718,13 @@ patch:
         patched: '2020-05-01T21:24:31.084Z'
     - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2020-05-01T21:24:31.084Z'
+    - node-sass > lodash:
+        patched: '2020-05-07T21:35:19.949Z'
+    - tailwindcss > lodash:
+        patched: '2020-05-07T21:35:19.949Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-05-07T21:35:19.949Z'
+    - postcss-cli > postcss-reporter > lodash:
+        patched: '2020-05-07T21:35:19.949Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-05-07T21:35:19.949Z'
