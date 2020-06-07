@@ -18,6 +18,12 @@ export const InputField = (props) => {
       onSubmit={onSubmit}
       className="bg-white shadow-md rounded px-8 pt-5 pb-8 m-10"
     >
+      <label
+        class="block text-gray-700 text-mb px-3 font-bold mb-2"
+        for="Income"
+      >
+        Enter Income:
+      </label>
       <div className="flex flex-wrap mx-auto ">
         <div className="w-full md:w-2/3 px-3 mb-6 md:mb-0">
           <input
