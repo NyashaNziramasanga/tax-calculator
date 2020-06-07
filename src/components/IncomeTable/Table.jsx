@@ -14,7 +14,7 @@ export const Table = () => {
         </tr>
       </thead>
       <tbody>
-        <TableRow></TableRow>
+        <TableRow />
       </tbody>
     </table>
   );

@@ -17,7 +17,7 @@ export const TableRow = () => {
         <td className="border px-10 py-2">-</td>
         <td className="border px-10 py-2">-</td>
         <td className="border px-10 py-2">
-          <FormatNumbers value={pay}></FormatNumbers>
+          <FormatNumbers value={pay} />
         </td>
       </tr>
       <tr>
@@ -26,7 +26,7 @@ export const TableRow = () => {
         <td className="border px-10 py-2">-</td>
         <td className="border px-10 py-2">-</td>
         <td className="border px-10 py-2">
-          <FormatNumbers value={income}></FormatNumbers>
+          <FormatNumbers value={income} />
         </td>
       </tr>
       <tr>
@@ -35,7 +35,7 @@ export const TableRow = () => {
         <td className="border px-10 py-2">-</td>
         <td className="border px-10 py-2">-</td>
         <td className="border px-10 py-2">
-          <FormatNumbers value={annualTax}></FormatNumbers>
+          <FormatNumbers value={annualTax} />
         </td>
       </tr>
     </Fragment>

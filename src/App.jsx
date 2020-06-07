@@ -17,8 +17,8 @@ export const App = () => {
     <div className="App">
       <div className="container">
         <h1 className="text-center p-5">Tax Calculator</h1>
-        <InputField setAmount={setAmount}></InputField>
-        <Table></Table>
+        <InputField setAmount={setAmount} />
+        <Table />
       </div>
     </div>
   );
