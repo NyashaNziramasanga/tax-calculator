@@ -1,7 +1,7 @@
 import React from 'react';
-import TableRow from './TableRow';
+import { TableRow } from './TableRow';
 
-const Table = (tableAmounts) => {
+export const Table = (tableAmounts) => {
   return (
     <table className="table-auto mx-auto">
       <thead>
@@ -19,4 +19,3 @@ const Table = (tableAmounts) => {
     </table>
   );
 };
-export default Table;

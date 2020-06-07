@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { taxCalculator } from '../TaxCalculator';
 
-const InputField = (props) => {
+export const InputField = (props) => {
   const [income, setIncome] = useState(0);
 
   const onChange = (e) => setIncome(e.target.value);
@@ -38,4 +38,3 @@ const InputField = (props) => {
     </form>
   );
 };
-export default InputField;

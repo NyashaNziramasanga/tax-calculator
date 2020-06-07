@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Formatter from '../util/FormatNumbers';
 
-const TableRow = (props) => {
+export const TableRow = (props) => {
   const annualTax = props.tableAmounts.tableAmounts.annualTax;
   const pay = props.tableAmounts.tableAmounts.pay;
   const income = props.tableAmounts.tableAmounts.income;
@@ -38,4 +38,3 @@ const TableRow = (props) => {
     </Fragment>
   );
 };
-export default TableRow;
