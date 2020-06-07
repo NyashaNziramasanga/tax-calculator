@@ -10,7 +10,9 @@
 ---
 
 [![time tracker](https://wakatime.com/badge/github/NyashaNziramasanga/australia-tax-calculator.svg)](https://wakatime.com/badge/github/NyashaNziramasanga/australia-tax-calculator)
- [![Netlify Status](https://api.netlify.com/api/v1/badges/128ea850-ee0f-45cd-b60a-487a1540f745/deploy-status)](https://app.netlify.com/sites/tax-calculator/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/128ea850-ee0f-45cd-b60a-487a1540f745/deploy-status)](https://app.netlify.com/sites/tax-calculator/deploys)
+[![Maintainability](https://api.codeclimate.com/v1/badges/3d3d10f1c7ddd7a0e378/maintainability)](https://codeclimate.com/github/NyashaNziramasanga/tax-calculator/maintainability)
+
 
 ![tax-calculator.gif](src/assets/tax-calculator.gif)
 
