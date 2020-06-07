@@ -1,10 +1,13 @@
 import React, { Fragment } from 'react';
 import { FormatNumbers } from '../util/FormatNumbers';
+import { IncomeState } from '../IncomeAtom';
+import { useRecoilState } from 'recoil';
 
 export const TableRow = (props) => {
   const annualTax = props.tableAmounts.tableAmounts.annualTax;
   const pay = props.tableAmounts.tableAmounts.pay;
-  const income = props.tableAmounts.tableAmounts.income;
+
+  const [income, setIncome] = useRecoilState(IncomeState);
 
   return (
     <Fragment>
