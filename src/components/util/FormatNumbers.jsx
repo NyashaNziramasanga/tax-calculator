@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-const FormatNumbers = (props) => {
+export const FormatNumbers = (props) => {
   const formatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'AUD',
@@ -12,4 +12,3 @@ const FormatNumbers = (props) => {
     </Fragment>
   );
 };
-export default FormatNumbers;

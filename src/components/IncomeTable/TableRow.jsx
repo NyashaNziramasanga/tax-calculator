@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Formatter from '../util/FormatNumbers';
+import { FormatNumbers } from '../util/FormatNumbers';
 
 export const TableRow = (props) => {
   const annualTax = props.tableAmounts.tableAmounts.annualTax;
@@ -14,7 +14,7 @@ export const TableRow = (props) => {
         <td className="border px-10 py-2">-</td>
         <td className="border px-10 py-2">-</td>
         <td className="border px-10 py-2">
-          <Formatter value={pay}></Formatter>
+          <FormatNumbers value={pay}></FormatNumbers>
         </td>
       </tr>
       <tr>
@@ -23,7 +23,7 @@ export const TableRow = (props) => {
         <td className="border px-10 py-2">-</td>
         <td className="border px-10 py-2">-</td>
         <td className="border px-10 py-2">
-          <Formatter value={income}></Formatter>
+          <FormatNumbers value={income}></FormatNumbers>
         </td>
       </tr>
       <tr>
@@ -32,7 +32,7 @@ export const TableRow = (props) => {
         <td className="border px-10 py-2">-</td>
         <td className="border px-10 py-2">-</td>
         <td className="border px-10 py-2">
-          <Formatter value={annualTax}></Formatter>
+          <FormatNumbers value={annualTax}></FormatNumbers>
         </td>
       </tr>
     </Fragment>
