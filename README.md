@@ -13,10 +13,11 @@
 
 ## Table of Contents
 
-- [Getting Started](##Getting%20Started)
-- [Deployment](##Deployment)
-- [Contributing](##Contributing)
-- [Built With](##Built%20With)
+- [Table of Contents](#table-of-contents)
+- [Getting Started](#getting-started)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [Built With](#built-with)
 
 ## Getting Started
 
@@ -35,3 +36,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 - [React.js](https://reactjs.org/)
 - [Tailwind-css](https://tailwindcss.com/)
+- [Recoil (State Management)](https://recoiljs.org/)
