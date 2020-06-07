@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
 import { FormatNumbers } from '../util/FormatNumbers';
-import { IncomeState } from '../../Atom';
-import { useRecoilState } from 'recoil';
+import { IncomeState, AmountState } from '../../Atom';
+import { useRecoilState, useRecoilValue } from 'recoil';
 
-export const TableRow = (props) => {
-  const annualTax = props.tableAmounts.tableAmounts.annualTax;
-  const pay = props.tableAmounts.tableAmounts.pay;
+export const TableRow = () => {
+  const annualTax = useRecoilValue(AmountState).annualTax;
+  const pay = useRecoilValue(AmountState).pay;
 
-  const [income, setIncome] = useRecoilState(IncomeState);
+  const [income] = useRecoilState(IncomeState);
 
   return (
     <Fragment>

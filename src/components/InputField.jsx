@@ -8,8 +8,6 @@ export const InputField = (props) => {
 
   const onChange = (e) => setIncome(e.target.value);
 
-  console.log('InIncome', income);
-
   const onSubmit = (e) => {
     e.preventDefault();
     props.setAmount(taxCalculator(income));

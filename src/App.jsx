@@ -7,22 +7,18 @@ import { useRecoilState } from 'recoil';
 
 export const App = () => {
   const [amount, setAmount] = useRecoilState(TableState);
-  const [tableAmounts, setTableAmounts] = useRecoilState(AmountState);
-
-  // console.log('amount', amount);
+  const [, setTableAmounts] = useRecoilState(AmountState);
 
   useEffect(() => {
     setTableAmounts(amount);
   }, [amount, setTableAmounts]);
-
-  // console.log('tableAmounts', tableAmounts);
 
   return (
     <div className="App">
       <div className="container">
         <h1 className="text-center p-5">Tax Calculator</h1>
         <InputField setAmount={setAmount}></InputField>
-        <Table tableAmounts={tableAmounts}></Table>
+        <Table></Table>
       </div>
     </div>
   );

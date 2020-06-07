@@ -1,7 +1,7 @@
 import React from 'react';
 import { TableRow } from './TableRow';
 
-export const Table = (tableAmounts) => {
+export const Table = () => {
   return (
     <table className="table-auto mx-auto">
       <thead>
@@ -14,7 +14,7 @@ export const Table = (tableAmounts) => {
         </tr>
       </thead>
       <tbody>
-        <TableRow tableAmounts={tableAmounts}></TableRow>
+        <TableRow></TableRow>
       </tbody>
     </table>
   );
