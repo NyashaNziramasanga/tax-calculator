@@ -8,7 +8,7 @@ export const taxCalculator = (income) => {
   const TAX_45_PERCENT = 0.45;
 
   if (income <= 18_201) {
-    return 'Nill';
+    return { annualTax: 0, pay: 0, income: 0 };
   } else if (income <= 37_001) {
     annualTax = (income * TAX_19_PERCENT).toFixed(2);
     pay = (income * (1 - TAX_19_PERCENT)).toFixed(2);
