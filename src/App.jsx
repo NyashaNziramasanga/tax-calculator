@@ -1,24 +1,26 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import './App.scss';
 import { InputField } from './components/InputField';
 import { Table } from './components/IncomeTable/Table';
+import { AmountState, TableState } from './Atom';
+import { useRecoilState } from 'recoil';
 
 export const App = () => {
-  const [amount, setAmount] = useState(0);
-  const [tableAmounts, setTableAmounts] = useState(0);
+  const [amount, setAmount] = useRecoilState(TableState);
+  const [tableAmounts, setTableAmounts] = useRecoilState(AmountState);
 
-  console.log('amount', amount);
+  // console.log('amount', amount);
 
   useEffect(() => {
     setTableAmounts(amount);
-  }, [amount]);
+  }, [amount, setTableAmounts]);
 
-  console.log('tableAmounts', tableAmounts);
+  // console.log('tableAmounts', tableAmounts);
 
   return (
     <div className="App">
       <div className="container">
-        <h1 className="text-center p-5">Aus Tax Calculator</h1>
+        <h1 className="text-center p-5">Tax Calculator</h1>
         <InputField setAmount={setAmount}></InputField>
         <Table tableAmounts={tableAmounts}></Table>
       </div>

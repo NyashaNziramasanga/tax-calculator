@@ -1,7 +1,7 @@
 import React from 'react';
 import { taxCalculator } from '../TaxCalculator';
 import { useRecoilState } from 'recoil';
-import { IncomeState } from './IncomeAtom';
+import { IncomeState } from '../Atom';
 
 export const InputField = (props) => {
   const [income, setIncome] = useRecoilState(IncomeState);

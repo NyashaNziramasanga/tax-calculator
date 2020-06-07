@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { FormatNumbers } from '../util/FormatNumbers';
-import { IncomeState } from '../IncomeAtom';
+import { IncomeState } from '../../Atom';
 import { useRecoilState } from 'recoil';
 
 export const TableRow = (props) => {
