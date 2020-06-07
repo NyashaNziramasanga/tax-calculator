@@ -1,15 +1,18 @@
 <div align="center">
   <p>
-    <h3> Australia Tax Calculator </h2>
+    <h3>React Tax Calculator </h2>
   </p>
   <p>
-    <i>Australian income tax calculator app. 🧾💵</i>
+    <i>Income tax calculator react app. 🧾💵</i>
   </p>
 </div>
 
 ---
 
 [![time tracker](https://wakatime.com/badge/github/NyashaNziramasanga/australia-tax-calculator.svg)](https://wakatime.com/badge/github/NyashaNziramasanga/australia-tax-calculator)
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/128ea850-ee0f-45cd-b60a-487a1540f745/deploy-status)](https://app.netlify.com/sites/tax-calculator/deploys)
+
+![tax-calculator.gif](src/assets/tax-calculator.gif)
 
 ## Table of Contents
 
@@ -21,12 +24,14 @@
 
 ## Getting Started
 
-```javascript
+```bash
 $ npm install
 $ npm start
 ```
 
 ## Deployment
+
+Netlify hosting on [tax-calculator.netlify.app](https://tax-calculator.netlify.app/)
 
 ## Contributing
 
