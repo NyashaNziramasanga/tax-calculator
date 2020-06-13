@@ -12,21 +12,21 @@ export const TableRow = () => {
   return (
     <Fragment>
       <tr>
-        <td className="border px-10 py-2">Pay</td>
-        <td className="border px-10 py-2">
-          <FormatNumbers value={pay} />
-        </td>
-      </tr>
-      <tr>
-        <td className="border px-10 py-2">Taxable Income</td>
-        <td className="border px-10 py-2">
+        <td class='w-2/3 text-left py-3 px-4'>Taxable Income</td>
+        <td class='w-2/3 text-left py-3 px-4'>
           <FormatNumbers value={income} />
         </td>
       </tr>
       <tr>
-        <td className="border px-10 py-2">Taxes</td>
-        <td className="border px-10 py-2">
+        <td class='w-2/3 text-left py-3 px-4'>Taxes</td>
+        <td class='w-2/3 text-left py-3 px-4'>
           <FormatNumbers value={annualTax} />
+        </td>
+      </tr>
+      <tr>
+        <td class='w-2/3 text-left py-3 px-4'>Take Home Pay</td>
+        <td class='w-2/3 text-left py-3 px-4'>
+          <FormatNumbers value={pay} />
         </td>
       </tr>
     </Fragment>
