@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
+    "react-scripts": "5.0.1",
     "recoil": "0.0.10"
   },
   "scripts": {
@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
-    "node-sass": "^4.14.1",
+    "node-sass": "^9.0.0",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.5.2"
   }
